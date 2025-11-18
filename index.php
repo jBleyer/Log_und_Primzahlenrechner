@@ -13,3 +13,11 @@
 </html>
 
 <?php
+
+for ($i = 1; $i < 100; $i++) {
+    $asterisks_to_print = round(log($i) * 10);
+    for ($j = 0; $j < $asterisks_to_print; $j++) {
+        echo "*";
+    }
+    echo "<br>";
+}
